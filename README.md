@@ -1,2 +1,2 @@
 MY PORTFOLIO !!
-kajalsingh-portfolio.netlify.app:LIVE AT NETLIFY !!
+LIVE AT NETLIFY : https://kajalsingh-portfolio.netlify.app/
