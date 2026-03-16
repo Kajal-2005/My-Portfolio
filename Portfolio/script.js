@@ -62,7 +62,7 @@ function initSkillBars() {
         observer.unobserve(e.target);
       }
     });
-  }, { threshold: 0.3 });
+  }, { threshold: 0.1 });
 
   document.querySelectorAll('.skills-category').forEach(el => observer.observe(el));
 }
