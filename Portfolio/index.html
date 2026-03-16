@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kajal Singh | Full Stack Developer</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-brand">KS</div>
+    <ul class="nav-links">
+      <li><a href="#home">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certifications">Certificates</a></li>
+      <li><a href="#hackathons">Achievements</a></li>
+      <li><a href="#training">Training</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <div class="hero-avatar">
+        <div class="avatar-ring">
+          <img src="photo.jpg" alt="Kajal Singh" class="avatar-img"/>
+        </div>
+        <div class="status-dot"></div>
+      </div>
+      <div class="hero-text">
+        <p class="hero-greeting">Hello, I'm</p>
+        <h1 class="hero-name">Kajal Singh</h1>
+        <div class="hero-role">
+          <span class="role-prefix">Aspiring </span>
+          <span class="typed-text" id="typed"></span>
+          <span class="cursor">|</span>
+        </div>
+        <p class="hero-desc">BTech Computer Science student at Lovely Professional University, passionate about building scalable web applications and intelligent systems.</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary"><i class="fas fa-code"></i> View Projects</a>
+          <a href="#resume" class="btn btn-outline"><i class="fas fa-download"></i> Download CV</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat"><span class="stat-num">3+</span><span class="stat-label">Projects</span></div>
+          <div class="stat"><span class="stat-num">4+</span><span class="stat-label">Certifications</span></div>
+          <div class="stat"><span class="stat-num">1+</span><span class="stat-label">Hackathons</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator"><div class="scroll-dot"></div></div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="section" id="education">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Academic Background</span>
+        <h2 class="section-title">Education</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item" data-aos>
+          <div class="timeline-icon"><i class="fas fa-university"></i></div>
+          <div class="timeline-card">
+            <div class="card-header">
+              <h3>BTech – Computer Science & Engineering</h3>
+              <span class="badge badge-primary">Aug 2023 – Present</span>
+            </div>
+            <p class="institution"><i class="fas fa-map-marker-alt"></i> Lovely Professional University, Punjab</p>
+            <p class="detail">Full Stack Web Development and Software Engineering. Active member of coding clubs and technical societies.</p>
+            <div class="tags"><span class="tag">CGPA: 7.2</span><span class="tag">CSE</span></div>
+          </div>
+        </div>
+        <div class="timeline-item" data-aos>
+          <div class="timeline-icon"><i class="fas fa-school"></i></div>
+          <div class="timeline-card">
+            <div class="card-header">
+              <h3>Class XII – Intermediate</h3>
+              <span class="badge badge-secondary">Apr 2021 – Mar 2022</span>
+            </div>
+            <p class="institution"><i class="fas fa-map-marker-alt"></i> Rani Laxmi Bai Memorial School, Lucknow, Uttar Pradesh</p>
+            <div class="tags"><span class="tag">85%</span><span class="tag">CBSE</span></div>
+          </div>
+        </div>
+        <div class="timeline-item" data-aos>
+          <div class="timeline-icon"><i class="fas fa-graduation-cap"></i></div>
+          <div class="timeline-card">
+            <div class="card-header">
+              <h3>Class X – Matriculation</h3>
+              <span class="badge badge-secondary">Apr 2019 – Mar 2020</span>
+            </div>
+            <p class="institution"><i class="fas fa-map-marker-alt"></i> Rani Laxmi Bai Memorial School, Lucknow, Uttar Pradesh</p>
+            <div class="tags"><span class="tag">88.4%</span><span class="tag">CBSE</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INTERNSHIP -->
+  <section class="section section-alt" id="internship">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Work Experience</span>
+        <h2 class="section-title">Internship</h2>
+      </div>
+      <div class="internship-card" data-aos>
+        <div class="internship-left">
+          <div class="company-logo"><i class="fas fa-building"></i></div>
+          <div class="internship-meta">
+            <h3>Human Resource Intern</h3>
+            <p class="company-name"><i class="fas fa-briefcase"></i> Adeptiwise (formerly Buzoom)</p>
+            <span class="badge badge-green">Completed</span>
+          </div>
+        </div>
+        <div class="internship-right">
+          <div class="internship-detail">
+            <i class="fas fa-calendar-alt"></i>
+            <span>June 2024 – July 2024</span>
+          </div>
+          <ul class="internship-points">
+            <li><i class="fas fa-check-circle"></i> Screened candidate profiles and resumes to shortlist suitable applicants</li>
+            <li><i class="fas fa-check-circle"></i> Managed LinkedIn recruitment activities to identify and connect with potential candidates</li>
+            <li><i class="fas fa-check-circle"></i> Supported HR operations including documentation and coordination tasks</li>
+          </ul>
+          <div class="tags">
+            <span class="tag">HR Analytics</span>
+            <span class="tag">Recruitment</span>
+            <span class="tag">Documentation</span>
+            <span class="tag">Team Coordination</span>
+          </div>
+          <button class="cert-view-btn" style="margin-top:1rem;" onclick="openCert('internship.pdf', 'HR Intern – Adeptiwise (formerly Buzoom)')"><i class="fas fa-eye"></i> View Certificate</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What I've Built</span>
+        <h2 class="section-title">Projects</h2>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card" data-aos>
+          <div class="project-header" style="--accent: #6366f1">
+            <div class="project-icon"><i class="fas fa-table"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/Kajal-2005/Excel--Clone" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+              <a href="https://github.com/Kajal-2005/Excel--Clone" target="_blank" rel="noopener" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>Excel Clone</h3>
+            <p>A full-featured, web-based Excel clone replicating key spreadsheet functionality including cell formatting, an address bar, and a formula bar with efficient formula parsing and evaluation using stack-based algorithms.</p>
+            <div class="project-features">
+              <span><i class="fas fa-dot-circle"></i> Formula parsing & evaluation via stack-based algorithms</span>
+              <span><i class="fas fa-dot-circle"></i> Cell formatting with address & formula bar</span>
+              <span><i class="fas fa-dot-circle"></i> Multi-sheet support with 2D array & hash map structures</span>
+            </div>
+            <div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">DSA</span></div>
+          </div>
+        </div>
+        <div class="project-card" data-aos>
+          <div class="project-header" style="--accent: #f97316">
+            <div class="project-icon"><i class="fas fa-graduation-cap"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/Kajal-2005/MHRD-Dashboard" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+              <a href="https://github.com/Kajal-2005/MHRD-Dashboard" target="_blank" rel="noopener" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>MHRD Dashboard</h3>
+            <p>A dynamic dashboard built with PHP, HTML, CSS, and JavaScript to display educational schemes, notifications, and statistical data. Features secure user login and an interactive map with multiple dashboard sections.</p>
+            <div class="project-features">
+              <span><i class="fas fa-dot-circle"></i> Secure user login & authentication system via PHP</span>
+              <span><i class="fas fa-dot-circle"></i> Interactive map with real-time government initiative data</span>
+              <span><i class="fas fa-dot-circle"></i> Structured display of educational schemes & notifications</span>
+            </div>
+            <div class="tags"><span class="tag">PHP</span><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div>
+          </div>
+        </div>
+        <div class="project-card" data-aos>
+          <div class="project-header" style="--accent: #10b981">
+            <div class="project-icon"><i class="fas fa-chalkboard"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/Kajal-2005/RealTime-Whiteboard" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+              <a href="https://github.com/Kajal-2005/RealTime-Whiteboard" target="_blank" rel="noopener" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>Realtime Whiteboard</h3>
+            <p>A collaborative real-time whiteboard with tools like multi-color pencil, adjustable eraser, sticky notes, sticky images, and board download. Supports Undo/Redo and real-time multi-user sync via Socket.io and Node.js.</p>
+            <div class="project-features">
+              <span><i class="fas fa-dot-circle"></i> Pencil, eraser, sticky notes & image tools</span>
+              <span><i class="fas fa-dot-circle"></i> Undo/Redo using arrays as stacks</span>
+              <span><i class="fas fa-dot-circle"></i> Real-time sync across users via Socket.io & Node.js</span>
+            </div>
+            <div class="tags"><span class="tag">JavaScript</span><span class="tag">Node.js</span><span class="tag">Socket.io</span><span class="tag">HTML/CSS</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRAINING -->
+  <section class="section section-alt" id="training">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Professional Development</span>
+        <h2 class="section-title">Training</h2>
+      </div>
+      <div class="training-grid">
+        <div class="training-card" data-aos>
+          <div class="training-icon" style="--color: #6366f1"><i class="fas fa-terminal"></i></div>
+          <h3>C Programming Training</h3>
+          <p>Completed 35+ hours of live summer training on C Programming Language conducted by CSE Pathshala. Gained hands-on experience in core C concepts, coding exercises, and problem-solving tasks.</p>
+          <div class="tags"><span class="tag">C</span><span class="tag">CSE Pathshala</span><span class="tag">28 Jun – 20 Jul 2025</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section class="section" id="certifications">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Achievements</span>
+        <h2 class="section-title">Certificates & Certifications</h2>
+      </div>
+      <div class="certs-grid">
+        <div class="cert-card" data-aos>
+          <div class="cert-logo" style="--color: #f97316"><i class="fas fa-cloud"></i></div>
+          <div class="cert-info">
+            <h4>Cloud Computing</h4>
+            <p>NPTEL</p>
+            <span class="cert-year">Apr 2025</span>
+          </div>
+          <button class="cert-view-btn" onclick="openCert('cloud-computing.pdf', 'Cloud Computing – NPTEL')"><i class="fas fa-eye"></i> View</button>
+        </div>
+        <div class="cert-card" data-aos>
+          <div class="cert-logo" style="--color: #6366f1"><i class="fas fa-terminal"></i></div>
+          <div class="cert-info">
+            <h4>Data Structures & Algorithms: C Programming</h4>
+            <p>CSE Pathshala</p>
+            <span class="cert-year">June 2025</span>
+          </div>
+          <button class="cert-view-btn" onclick="openCert('dsa-c.pdf', 'DSA: C Programming – CSE Pathshala')"><i class="fas fa-eye"></i> View</button>
+        </div>
+        <div class="cert-card" data-aos>
+          <div class="cert-logo" style="--color: #ec4899"><i class="fas fa-microphone-alt"></i></div>
+          <div class="cert-info">
+            <h4>Youth Speak Forum</h4>
+            <p>AIESEC | LPU</p>
+            <span class="cert-year">Nov 2023</span>
+          </div>
+          <button class="cert-view-btn" onclick="openCert('youth-speak.pdf', 'Youth Speak Forum – AIESEC | LPU')"><i class="fas fa-eye"></i> View</button>
+        </div>
+        <div class="cert-card" data-aos>
+          <div class="cert-logo" style="--color: #06b6d4"><i class="fas fa-network-wired"></i></div>
+          <div class="cert-info">
+            <h4>Fundamentals of Networking</h4>
+            <p>Coursera</p>
+            <span class="cert-year">Sep 2024</span>
+          </div>
+          <button class="cert-view-btn" onclick="openCert('networking.pdf', 'Fundamentals of Networking – Coursera')"><i class="fas fa-eye"></i> View</button>
+        </div>
+      </div>
+
+      <!-- CERTIFICATE MODAL -->
+      <div class="cert-modal" id="certModal" onclick="closeCert(event)">
+        <div class="cert-modal-box">
+          <button class="cert-modal-close" onclick="closeCert()"><i class="fas fa-times"></i></button>
+          <p class="cert-modal-title" id="certModalTitle"></p>
+          <iframe id="certModalFrame" src="" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HACKATHONS -->
+  <section class="section section-alt" id="hackathons">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Competitions</span>
+        <h2 class="section-title">Hackathons</h2>
+      </div>
+      <div class="hackathon-grid">
+        <div class="hackathon-card" data-aos>
+          <div class="hack-rank">🏆</div>
+          <div class="hack-info">
+            <h3>Code-A-Haunt LPU</h3>
+            <p class="hack-org"><i class="fas fa-trophy"></i> Top 10 Scorer</p>
+            <p>Developed a multimedia all-in-one website featuring a full shopping experience and a Spotify-like music player. Ranked in the top 10 among all participating teams.</p>
+            <div class="tags">
+              <span class="tag">HTML/CSS</span><span class="tag">JavaScript</span><span class="tag">Music Player</span><span class="tag">E-Commerce</span>
+            </div>
+            <span class="hack-date"><i class="fas fa-calendar"></i> 2023</span>
+            <div style="margin-top:1rem;">
+              <button class="cert-view-btn" onclick="openCert('hackathon.pdf', 'Code-A-Haunt – LPU Hackathon Certificate')"><i class="fas fa-eye"></i> View Certificate</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Technical Expertise</span>
+        <h2 class="section-title">Skills</h2>
+      </div>
+      <div class="skills-wrapper">
+        <div class="skills-category" data-aos>
+          <h3 class="cat-title"><i class="fas fa-code"></i> Programming Languages</h3>
+          <div class="skill-bars">
+            <div class="skill-bar">
+              <div class="skill-info"><span>C++</span><span>85%</span></div>
+              <div class="bar"><div class="bar-fill" style="--w:85%; --color:#6366f1"></div></div>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-info"><span>C</span><span>80%</span></div>
+              <div class="bar"><div class="bar-fill" style="--w:80%; --color:#ec4899"></div></div>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-info"><span>JavaScript</span><span>82%</span></div>
+              <div class="bar"><div class="bar-fill" style="--w:82%; --color:#f59e0b"></div></div>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-info"><span>PHP</span><span>75%</span></div>
+              <div class="bar"><div class="bar-fill" style="--w:75%; --color:#8b5cf6"></div></div>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-info"><span>Java</span><span>70%</span></div>
+              <div class="bar"><div class="bar-fill" style="--w:70%; --color:#f97316"></div></div>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-info"><span>Python</span><span>72%</span></div>
+              <div class="bar"><div class="bar-fill" style="--w:72%; --color:#10b981"></div></div>
+            </div>
+          </div>
+        </div>
+        <div class="skills-category" data-aos>
+          <h3 class="cat-title"><i class="fas fa-layer-group"></i> Frameworks & Technologies</h3>
+          <div class="skill-pills">
+            <div class="skill-pill"><i class="fab fa-html5"></i> HTML & CSS</div>
+            <div class="skill-pill"><i class="fas fa-wind"></i> TailwindCSS</div>
+            <div class="skill-pill"><i class="fab fa-react"></i> React.js</div>
+            <div class="skill-pill"><i class="fab fa-node-js"></i> Node.js</div>
+            <div class="skill-pill"><i class="fas fa-server"></i> Express.js</div>
+            <div class="skill-pill"><i class="fas fa-sitemap"></i> Algorithms & DSA</div>
+          </div>
+        </div>
+        <div class="skills-category" data-aos>
+          <h3 class="cat-title"><i class="fas fa-tools"></i> Tools & Platforms</h3>
+          <div class="tools-grid">
+            <div class="tool-item"><i class="fab fa-git-alt"></i><span>Git</span></div>
+            <div class="tool-item"><i class="fab fa-github"></i><span>GitHub</span></div>
+            <div class="tool-item"><i class="fas fa-code"></i><span>VS Code</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESUME -->
+  <section class="section section-alt resume-section" id="resume">
+    <div class="container">
+      <div class="resume-card" data-aos>
+        <div class="resume-left">
+          <div class="resume-icon"><i class="fas fa-file-pdf"></i></div>
+          <div>
+            <h2>Download My Resume</h2>
+            <p>Get a complete overview of my skills, experience, and projects in a single document.</p>
+          </div>
+        </div>
+        <a href="MY FINAL CV.pdf" download="Kajal_Singh_CV.pdf" class="btn btn-primary btn-lg">
+          <i class="fas fa-download"></i> Download CV
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Get In Touch</span>
+        <h2 class="section-title">Contact Me</h2>
+      </div>
+      <div class="contact-wrapper">
+        <div class="contact-info" data-aos>
+          <p class="contact-intro">I'm open to internship opportunities, collaborations, and full-time roles. Feel free to reach out!</p>
+          <div class="contact-links">
+            <a href="mailto:kajalsingh22@gmail.com" class="contact-item">
+              <div class="contact-icon" style="--color: #ec4899"><i class="fas fa-envelope"></i></div>
+              <div><span class="contact-label">Email</span><span class="contact-value">kajalsingh22@gmail.com</span></div>
+            </a>
+            <a href="tel:+917572042070" class="contact-item">
+              <div class="contact-icon" style="--color: #10b981"><i class="fas fa-phone"></i></div>
+              <div><span class="contact-label">Phone</span><span class="contact-value">+91 75720 42070</span></div>
+            </a>
+            <a href="https://www.linkedin.com/in/kajalsingh22" target="_blank" rel="noopener" class="contact-item">
+              <div class="contact-icon" style="--color: #0077b5"><i class="fab fa-linkedin"></i></div>
+              <div><span class="contact-label">LinkedIn</span><span class="contact-value">linkedin.com/in/kajalsingh22</span></div>
+            </a>
+            <a href="https://github.com/Kajal-2005" target="_blank" rel="noopener" class="contact-item">
+              <div class="contact-icon" style="--color: #6366f1"><i class="fab fa-github"></i></div>
+              <div><span class="contact-label">GitHub</span><span class="contact-value">github.com/Kajal-2005</span></div>
+            </a>
+          </div>
+        </div>
+        <form class="contact-form" data-aos onsubmit="handleSubmit(event)">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" placeholder="John Doe" required/>
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" placeholder="john@example.com" required/>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" placeholder="Hi Kajal, I'd love to connect..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary w-full">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>Designed & Built by <span class="highlight">Kajal Singh</span></p>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/kajalsingh22" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/Kajal-2005" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+        <a href="mailto:kajalsingh22@gmail.com"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
